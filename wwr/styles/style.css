@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Tapestry&display=swap');  
 #content {
     max-width: 1600px;
     margin:0 auto;
 }
 nav a {
+    color: black; 
     text-align: center;
     text-decoration: none; 
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -14,49 +17,88 @@ nav a {
 }
 main section {
     text-align: center;
+    font-family: Tapestry, Helvetica, sans-serif; 
 }
 #background {
     height: 725px;
 }
-body { 
-    background-color: #d9a793;
+body {
+    background-color: #050547;
+    font-family: Tapestry, Helvetica, sans-serif; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
-    background-color: #80ffdf;
+    background-color: white;
+    font-family: Tapestry, Helvetica, sans-serif; 
+    font-size: 18px;
 }
 nav a:hover {
     background-color:  #ffff99;
+    color: black;
 }
 .book, .join {
     background-color: #fbfb95;
     text-decoration: none; 
+    font-family: Tapestry, Helvetica, sans-serif; 
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {border: 10px solid #ffffff
+}
+main section img {
+    box-sizing: border-box;
 }
 .book:hover, .join:hover {
     background-color: #ff80ff;
+    color: black;
 }
 #background {
     background-color: #ff8282;
 }
 .msg {
-    background-color: #e29cd1;
+    background-color: #ffffff;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #b3ff99;
+    padding: 25px 50px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 .home-title {
-    background-color: rgb(231, 171, 171);
+    background-color: #050547; 
+    font-family: Tapestry, Helvetica, sans-serif;  
+    font-size: 2em;  
+    margin-top: 10px;
+    color: white;
 }
 h4 {
-    background-color: #8bcf75;
+    background-color: #050547;
+    font-size: 18px;
+    font-family: Tapestry, Helvetica, sans-serif;  
+    color: white;
 }
 .msg h2 {
     background-color: antiquewhite;
+    font-size: 25px;
+    font-family: Tapestry, Helvetica, sans-serif;  
 }
 .msg p {background-color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
-    background-color: #b79ffd;
-    text-decoration: underline;
+    background-color: #b3ff99;
+    text-decoration: none;
 }
 footer a {
     background-color: #fbfb95;
@@ -67,4 +109,13 @@ footer a:hover {
 }
 .logo {
     width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+}  
+.icon {
+    padding-top: 10px 
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
