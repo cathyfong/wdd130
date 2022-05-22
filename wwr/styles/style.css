@@ -22,6 +22,9 @@ main section {
 #background {
     height: 725px;
 }
+#background {
+    background-color: #ffffff;
+}
 body {
     background-color: #050547;
     font-family: Tapestry, Helvetica, sans-serif; 
@@ -59,11 +62,8 @@ main section img {
     background-color: #ff80ff;
     color: black;
 }
-#background {
-    background-color: #ff8282;
-}
 .msg {
-    background-color: #ffffff;
+    background-color: #050547;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -88,13 +88,15 @@ h4 {
     color: white;
 }
 .msg h2 {
-    background-color: antiquewhite;
+    background-color: #050547;
     font-size: 25px;
     font-family: Tapestry, Helvetica, sans-serif;  
+    color: white;
 }
-.msg p {background-color: white;
+.msg p {background-color: #050547;
     font-size: .8em;
     padding-bottom: 15px;
+    color: white;
 }
 footer h3 {
     background-color: #b3ff99;
