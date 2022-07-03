@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Tapestry&family=Tiro+Bangla&family=Tiro+Devanagari+Sanskrit&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    color: rgb(78, 78, 78);
+    text-align: center; 
+    font-family: Typography, Trio Bangla, sans-serif;
+    padding: 25px;
+}
+#hero-msg {
+    color: rgb(233, 230, 230);
+}
+body {
+    background-color: #82856b; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: white;
+    font-family: Artifika, Trio Bangla, sans-serif
+}
+h2 {
+    color: white;
+    font-family: Trio Bangla, Trio Bangla, sans-serif;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.main {
+    color: white;
+}
