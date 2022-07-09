@@ -35,7 +35,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
-.home  {
+.home {
     color: white;
     font-family: Trio Bangla, Artifika, sans-serif;
     padding: 10px 35px;
@@ -57,6 +57,6 @@ footer {
     padding: 6px;
     border: none;
     margin-top: 8px;
-    margin-right: 15px;
+    margin-right: 1px;
     font-size: 17px;
   }
