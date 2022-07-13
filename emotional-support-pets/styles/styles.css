@@ -5,10 +5,10 @@
 }
 nav a {
     color: #a19a83;
-    text-align: center; 
     font-family: Typography, Trio Bangla, sans-serif;
-    padding: 45px;
     font-size: 20px;
+    text-decoration: none;
+    padding: 35px;
 }
 #hero-msg {
     color: rgb(233, 230, 230);
@@ -39,24 +39,57 @@ h2 {
     color: white;
     font-family: Trio Bangla, Artifika, sans-serif;
     padding: 10px 35px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
 }
 footer {
     color: white;
     padding: 10px 35px;
 }
-.topnav {
-    overflow: hidden;
-    background-color: #a19a83;
-  }
-.topnav a:hover {
-    background-color: #a19a83;
-    color: #a19a83;
-  }
-.topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 1px;
-    font-size: 17px;
-  }
+.grid-container {
+        display: grid;
+        column-gap: 30px;
+        grid-template-columns: auto auto auto;
+        background-color: #a19a83;
+        padding: 10px;   
+ }
+.grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+footer h3 {
+        background-color: #a19a83;
+        border: 50px;
+        text-decoration: none;
+    }
+    .topnav {
+        text-align: center;
+    }
+#logo_link {
+        padding-top: 5px;
+        justify-self: center;
+        align-self: left;
+    }
+    .main {
+        overflow: hidden;
+    }
+    footer {
+        background-color: #a19a83;
+        padding: 25px 50px;
+        margin-top: 200px; 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .topnav {
+        text-align: center;
+    }
+    .img {
+        border: 5px solid #555;
+    }
