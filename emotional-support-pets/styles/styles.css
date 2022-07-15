@@ -83,7 +83,6 @@ footer h3 {
 #logo_link {
         padding-top: 5px;
         justify-self: center;
-        align-self: left;
         grid-template-columns: auto auto auto;
     }
 .main {
@@ -92,7 +91,6 @@ footer h3 {
         color: white;
 }
 .images {
-    size-adjust: auto;
     grid-template-columns: auto auto auto;
 }
 footer {
