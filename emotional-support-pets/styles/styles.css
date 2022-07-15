@@ -25,13 +25,15 @@ h1 {
     color: white;
     font-family: Artifika, Trio Bangla, sans-serif;
     margin: 2%;
-    font-size: 35px;
+    font-size: 30px;
+    text-align: center;
+
 }
 h2 {
     color: white;
     font-family: Trio Bangla, Artifika, sans-serif;
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 30px;
 }
 .home-grid {
     display: grid;
@@ -114,7 +116,16 @@ body {
 a:hover {
     background-color: #a19a83;
   }
-
+.word {
+    display: grid;
+}
+h1 {
+    text-align: center;
+}
+.picture {
+    text-align: center;
+    color: white;
+}
 
 
 
