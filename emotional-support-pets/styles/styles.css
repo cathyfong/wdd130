@@ -8,6 +8,7 @@
 nav a {
     color: white;
     font-family: Typography, Trio Bangla, sans-serif;
+    padding-bottom: 20px;
     font-size: 20px;
     text-decoration: none;
     padding: 35px;
@@ -23,6 +24,7 @@ body {
 }
 h1 {
     color: white;
+    padding-left: 20px;
     font-family: Artifika, Trio Bangla, sans-serif;
     margin: 2%;
     font-size: 30px;
@@ -31,6 +33,7 @@ h1 {
 }
 h2 {
     color: white;
+    padding-left: 20px;
     font-family: Trio Bangla, Artifika, sans-serif;
     padding: 15px 30px;
     font-size: 30px;
@@ -109,6 +112,7 @@ footer {
 }
 body { 
   margin: 0;
+  padding-left: 20px;
   font-family: Trio Bangla, Artifika, sans-serif;
 }
 a:hover {
